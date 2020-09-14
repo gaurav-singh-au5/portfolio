@@ -33,7 +33,53 @@ class Portfolio extends Component {
             <h1>Check Out Some of My Works.</h1>
 
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-                {projects}
+                {/* <div class="columns portfolio-item">
+                <div class="item-wrap">
+                  <a
+                    href="https://www.canadianwanderlust.com"
+                    title="Canadian Wanderlust"
+                  >
+                    <img
+                      alt="Canadian Wanderlust"
+                      src="images/portfolio/canadian-wanderlust.jpg"
+                    />
+                    <div class="overlay">
+                      <div class="portfolio-item-meta">
+                        <h5>Canadian Wanderlust</h5>
+                        <p>My Travel Blog for my post-university travels</p>
+                      </div>
+                    </div>
+                    <div class="link-icon">
+                      <i class="fa fa-link"></i>
+                    </div>
+                  </a>
+                </div>
+    </div> */}
+
+              <div class="columns portfolio-item">
+                <div class="item-wrap">
+                  <a
+                    href="https://original-thai-food.herokuapp.com/index.html"
+                    title="Original Thai Food"
+                  >
+                    <img
+                      alt="Original Thai Food"
+                      src="images/portfolio/original-thai-food.jpg"
+                    />
+                    <div class="overlay">
+                      <div class="portfolio-item-meta">
+                        <h5>Original Thai Food</h5>
+                        <p>
+                          Website I built for a restaurant I like in Thailand
+                        </p>
+                      </div>
+                    </div>
+                    <div class="link-icon">
+                      <i class="fa fa-link"></i>
+                    </div>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
       </div>

@@ -34,12 +34,33 @@ class Header extends Component {
 
       <div className="row banner">
          <div className="banner-text">
-            <h1 className="responsive-headline">I'm {name}.</h1>
-            <h3>I'm a {city} based <span>{occupation}</span>. {description}.</h3>
+            <h1 className="responsive-headline">I'm Gaurav Singh.</h1>
+            <h3>I'm a India based <span>React JS Developer</span>.<br />Full Stack React Developer by Day. Freelancer by Night.</h3>
             <hr />
             <ul className="social">
-               {networks}
+               
+            <li>
+                  <a href="https://linkedin.com/in/gaurav-singh-a5715815a">
+                     <i class="fa fa-linkedin"></i>
+                  </a>
+               </li>
+               <li>
+                  <a href="https://www.instagram.com/sgaurav0303/">
+                     <i class="fa fa-instagram"></i>
+                  </a></li>
+               <li>
+                  <a href="https://stackoverflow.com/users/12312762/gaurav-rajpoot">
+                     <i class="fa fa-stack-overflow"></i>
+                  </a>
+               </li>
+               <li>
+                  <a href="https://github.com/gaurav-singh-au5?tab=repositories">
+                     <i class="fa fa-github"></i>
+                  </a>
+               </li>
             </ul>
+
+            
          </div>
       </div>
 

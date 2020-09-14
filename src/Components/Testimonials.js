@@ -25,7 +25,18 @@ class Testimonials extends Component {
 
             <div className="ten columns flex-container">
                   <ul className="slides">
-                      {testimonials}
+                  <li>
+                  <blockquote>
+                    <p>
+                      I have had the opportunity to work with Gaurav on multiple
+                      occasions which has always been a pleasure. He is driven
+                      and motivated with a consistently positive attitude. Gaurav
+                      excels at communicating with others and is always willing
+                      to work hard until he solves the problem at hand.
+                    </p>
+                    <cite>Ajay Avashthi - Web Developer at AppColony</cite>
+                  </blockquote>
+                </li>
                   </ul>
                </div>
             </div>

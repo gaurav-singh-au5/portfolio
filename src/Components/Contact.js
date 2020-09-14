@@ -80,10 +80,10 @@ class Contact extends Component {
 
 					   <h4>Address and Phone</h4>
 					   <p className="address">
-						   {name}<br />
-						   {street} <br />
-						   {city}, {state} {zip}<br />
-						   <span>{phone}</span>
+						   Gaurav Singh<br />
+						   Noida<br />
+						   Noida, Delhi NCR, 201301<br />
+						   <span>+91 8299 6868 79</span>
 					   </p>
 				   </div>
 
